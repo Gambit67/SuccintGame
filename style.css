@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff0f5; /* Light pink background */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.game-container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.2); /* Pink shadow */
+    padding: 25px;
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ffb6c1; /* Light pink border */
+}
+
+.game-stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+.stat {
+    padding: 8px 12px;
+    background-color: #ffe4e9; /* Very light pink */
+    border-radius: 8px;
+    min-width: 70px;
+}
+
+.stat-value {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff1493; /* Deep pink */
+}
+
+.stat-label {
+    font-size: 13px;
+    color: #db7093; /* Pale violet red */
+}
+
+.input-section {
+    display: flex;
+    gap: 8px;
+    margin: 15px 0;
+    justify-content: center;
+}
+
+#guess-input {
+    padding: 8px;
+    width: 70px;
+    font-size: 16px;
+    border: 2px solid #ffb6c1; /* Light pink */
+    border-radius: 8px;
+    text-align: center;
+    color: #c71585; /* Medium violet red */
+}
+
+#guess-btn, #new-game-btn {
+    padding: 8px 16px;
+    background-color: #ff69b4; /* Hot pink */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.2s;
+}
+
+#guess-btn:hover, #new-game-btn:hover {
+    background-color: #ff1493; /* Deeper pink */
+    transform: scale(1.05);
+}
+
+.number-buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin: 15px 0;
+}
+
+.number-btn {
+    padding: 12px 0;
+    font-size: 16px;
+    background-color: #ffd1dc; /* Pastel pink */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #c71585; /* Medium violet red */
+}
+
+.number-btn:hover {
+    background-color: #ffb6c1; /* Light pink */
+    transform: scale(1.05);
+}
+
+#feedback {
+    margin: 15px 0;
+    min-height: 22px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff69b4; /* Hot pink */
+}
+
+#new-game-btn {
+    background-color: #db7093; /* Pale violet red */
+}
+
+#new-game-btn:hover {
+    background-color: #c71585; /* Medium violet red */
+}
+
+
+img {
+    height: 50px;
+    width: auto;
+}
+
+img:hover {
+    height: 65px;
+    width: auto;
+}
